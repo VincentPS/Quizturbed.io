@@ -15,16 +15,22 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
 }
 
 main{
     height: 88vh;
     margin: 4vh;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
     text-align: center;
     transition: 5s linear background-color;
 }
+
+  nav {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    width: 1000px;
+  }
 
 button{
     width: 200px;
@@ -37,7 +43,6 @@ button{
     outline: none;
     color: #ffffff;
     margin-top: 12px;
-    margin-right: 10px;
     transition: 0.15s linear color, 0.15s linear background-color, 0.3s ease-in transform;
 }
 
@@ -46,6 +51,23 @@ button:hover{
     color: #000000;
     font-weight: 1500;
 
+}
+
+.marginFix{
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.selected:hover {
+  background-color: #ffffff;
+}
+
+.disclaimer{
+  font-style: italic;
 }
 
 #specialButton{
