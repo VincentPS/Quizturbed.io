@@ -21,6 +21,17 @@ body
     background-color: #ffffff;
 }
 
+.glitch{
+    animation: glitch 2.5s steps(100) infinite;
+}
+
+.Q
+{
+    font-size: 120px;
+    text-shadow: 12px 0 gray;
+}
+
+
 h1
 {
     font-family: 'Raleway', sans-serif;
@@ -31,11 +42,8 @@ h1
     text-shadow: 5px 0 gray;
 }
 
-.Q
-{
-    font-size: 120px;
-    text-shadow: 12px 0 gray;
-}
+
+
 
 main
 {
@@ -159,4 +167,336 @@ button:hover
 #explanation
 {
     margin-left: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes glitch {
+  0% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  1% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  2% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  3% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  4% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  5% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  6% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  7% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  8% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  9% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  10% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  11% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  12% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  13% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  14% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  15% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  16% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  17% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  18% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  19% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  20% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  21% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  22% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  23% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  24% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  25% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  26% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  27% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  28% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  29% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  30% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  31% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  32% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  33% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  34% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  35% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  36% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  37% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  38% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  39% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  40% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  41% {
+    text-shadow: 50px 0 0 blue, -50px 0 0 lime, 12px 0 grey;
+  }
+  42% {
+    text-shadow: 0 0 0 blue, 0 0 0 lime, 12px 0 grey;
+  }
+  43% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  44% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  45% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  46% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  47% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  48% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  49% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  50% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  51% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  52% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  53% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  54% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  55% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  56% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  57% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  58% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  59% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  60% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  61% {
+    text-shadow: 30px 0 0 red, -30px 0 0 lime, 12px 0 grey;
+  }
+  62% {
+    text-shadow: 0 0 0 red, 0 0 0 lime, 12px 0 grey;
+  }
+  63% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey;
+  }
+  64% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey;
+  }
+  65% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey;
+  }
+  66% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey;
+  }
+  67% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  68% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  69% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  70% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  71% {
+    text-shadow: 70px 0 0 red, -70px 0 0 blue, 12px 0 grey;
+  }
+  72% {
+    text-shadow: 0 0 0 red, 0 0 0 blue, 12px 0 grey;
+  }
+  73% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  74% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  75% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  76% {
+    text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey;
+  }
+  77% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  78% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  79% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  80% {
+    text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey;
+  }
+  81% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  82% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  83% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  84% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  85% {
+    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey;
+  }
+  86% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  87% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  88% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  89% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  90% {
+    text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey;
+  }
+  91% {
+    text-shadow: 60px 0 0 lime, -60px 0 0 blue, 12px 0 grey;
+  }
+  92% {
+    text-shadow: 0 0 0 lime, 0 0 0 blue, 12px 0 grey;
+  }
+  92% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  93% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  94% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  95% {
+    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey;
+  }
+  96% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  97% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  98% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  99% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
+  100% {
+    text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey;
+  }
 }

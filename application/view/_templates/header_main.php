@@ -10,4 +10,4 @@
 	<body id="body">
 		<main id="main">
 			<section id="section">
-				<h1><span class="Q" >Q</span>uizturbed</h1><br>
+				<h1 class="glitch"><span class="Q glitch" >Q</span>uizturbed</h1><br>
