@@ -2,6 +2,11 @@
 
 class Main extends Controller {
 
+	public function __construct()
+	{
+		require APP . 'view/_templates/header_main.php';
+	}
+
 	public function index()
 	{
 		require APP . 'view/main/index.php';
