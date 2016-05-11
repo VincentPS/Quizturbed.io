@@ -21,6 +21,22 @@ body
     background-color: #ffffff;
 }
 
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 5px 0 gray;
+}
+
+.Q
+{
+    font-size: 120px;
+    text-shadow: 12px 0 gray;
+}
+
 main
 {
     height: 88vh;
@@ -30,12 +46,12 @@ main
     transition: 5s linear background-color;
 }
 
-  nav
+nav
 {
     border-bottom: 3px solid #000000;
     padding-bottom: 10px;
-    width: 1000px;
- }
+    width: 1200px;
+}
 
 button
 {
