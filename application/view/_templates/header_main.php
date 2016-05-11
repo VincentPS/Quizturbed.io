@@ -1,3 +1,12 @@
+<?php 
+	$nav1 = "Home";
+	$nav2 = "LeaderBoard";
+	$nav3 = "Information";
+	$nav4 = "Quit";
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,3 +20,4 @@
 		<main id="main">
 			<section id="section">
 				<h1 class="glitch"><span class="Q glitch" >Q</span>uizturbed</h1><br>
+				<p>The Disturbing Quiz</p>
