@@ -169,72 +169,49 @@ button:hover
     margin-left: ;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes glitch {
   0% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   4% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
-  5% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
-  10% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
+  5% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  10% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   11% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   15% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
-  16% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  20% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
+  16% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  20% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   21% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(7deg);}
   30% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(7deg);}
-  31% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  40% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  41% {text-shadow: 50px 12px 0 blue, -50px -40px 0 lime, 12px 0 grey; transform: rotateZ(20deg);}
-  42% {text-shadow: 0 0 0 blue, 0 0 0 lime, 12px 0 grey; transform: rotateZ(deg);}
+  31% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  40% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  41% {text-shadow: 50px 12px 0 blue, -50px -40px 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  42% {text-shadow: 0 0 0 blue, 0 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   43% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   46% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
-  47% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  50% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
+  47% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  50% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   51% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   55% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
-  56% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
-  60% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
-  61% {text-shadow: 30px 0 0 red, -30px 0 0 lime, 12px 0 grey; transform: rotateZ(-25deg);}
-  62% {text-shadow: 0 0 0 red, 0 0 0 lime, 12px 0 grey; transform: rotateZ(deg);}
+  56% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  60% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  61% {text-shadow: 30px 0 0 red, -30px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  62% {text-shadow: 0 0 0 red, 0 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   63% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   66% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
-  67% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
-  70% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(-0deg);}
-  71% {text-shadow: 70px -30px 0 red, -45px 120px 0 blue, 12px 0 grey; transform: rotateZ(deg);}
-  72% {text-shadow: 0 0 0 red, 0 0 0 blue, 12px 0 grey; transform: rotateZ(deg);}
+  67% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  70% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  71% {text-shadow: 70px -30px 0 red, -45px 120px 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
+  72% {text-shadow: 0 0 0 red, 0 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   73% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   76% {text-shadow: 1px 0 0 red, -1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   77% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   80% {text-shadow: -1px 0 0 red, 1px 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
   81% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   85% {text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
-  86% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  90% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
+  86% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  90% {text-shadow: -1px 0 0 red, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   91% {text-shadow: 60px -29px 0 lime, -60px 45px 0 blue, 12px 0 grey; transform: rotateZ(90deg);}
-  92% {text-shadow: 0 0 0 lime, 0 0 0 blue, 12px 0 grey; transform: rotateZ(0deg);}
-  92% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
-  95% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(-0deg);}
+  92% {text-shadow: 0 0 0 lime, 0 0 0 blue, 12px 0 grey; transform: rotateZ(-45deg);}
+  92% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
+  95% {text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   96% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
   100% {text-shadow: -1px 0 0 blue, 1px 0 0 lime, 12px 0 grey; transform: rotateZ(0deg);}
 }
