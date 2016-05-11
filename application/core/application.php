@@ -8,7 +8,6 @@ class Application
     public function __construct()
     {
 
-
         require APP . 'view/_templates/header.php';
 
         // create array with URL parts in $url
@@ -16,10 +15,7 @@ class Application
         if (!$this->url_controller) {
             require APP . 'controller/main.php';
             $page = new Main();
-
             $page->index();
-
-            $page->main();
 
         } elseif (file_exists(APP . 'controller/' . $this->url_controller . '.php')) {
             require APP . 'controller/' . $this->url_controller . '.php';
@@ -35,11 +31,11 @@ class Application
                     $this->url_controller->index();
                 }
                 else {
-                    header('location: ' . URL . 'error');
+                    header('location: ' . URL . 'main/error');
                 }
             }
         } else {
-            header('location: ' . URL . 'error');
+            header('location: ' . URL . 'main/error');
         }
     }
     private function splitUrl()
