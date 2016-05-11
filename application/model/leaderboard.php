@@ -18,16 +18,24 @@
         $result = mysqli_query($conn, $sql);
         $scores = $result->fetch_all(MYSQLI_ASSOC);
 
-        echo '<table> <thead> <tr>';
-        echo '<th><button type="button">' . $param1 . '</button></th>';
-        echo '<th><button type="button">' . $param2 . '</button></th>';
-        echo '</tr> </thead> </tbody>';
+        echo '<table class="leaderboard">
+               <thead>
+                <tr>
+                 <th class="leaderboard-left"><button type="button" class="leaderboard-top">' . $param1 . '</button></th>
+                 <th class="leaderboard-right"><button type="button" class="leaderboard-top">' . $param2 . '</button></th>
+                </tr>
+               </thead>
+              </tbody>';
 
         foreach ($scores as $score) {
-        echo '<tr>';
-        echo '<td><button type="button">' . $score['user'] . '</button></td>';
-        echo '<td><button type="button">' . $score['score'] . '</button></td>';
-        echo '</tr>';
+        echo '<tr>
+               <td class="leaderboard-left">
+                <button type="button" class="leaderboard-bottom">' . $score['user'] . '</button>
+               </td>
+               <td class="leaderboard-right">
+                <button type="button" class="leaderboard-bottom score">' . $score['score'] . '</button>
+               </td>
+              </tr>';
         }
     }
 
