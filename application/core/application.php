@@ -17,6 +17,8 @@ class Application
      */
     public function __construct()
     {
+        require APP . 'view/_templates/header.php';
+
         // create array with URL parts in $url
         $this->splitUrl();
 
@@ -25,7 +27,7 @@ class Application
 
             require APP . 'controller/main.php';
             $page = new Main();
-            $page->index();
+            $page->main();
 
         } elseif (file_exists(APP . 'controller/' . $this->url_controller . '.php')) {
             // here we did check for controller: does such a controller exist ?
@@ -58,6 +60,9 @@ class Application
         } else {
             header('location: ' . URL . 'error');
         }
+
+        require APP . 'view/_templates/footer.php';
+
     }
 
     /**
