@@ -19,7 +19,8 @@ class Main extends Controller {
 
 	public function leaderboard()
 	{
-		require APP . 'view/leaderboard/index.php';
+		require APP . 'model/leaderboard.php';
+        require APP . 'view/main/leaderboard.php';
 	}
 
 	public function error()
