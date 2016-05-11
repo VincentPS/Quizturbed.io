@@ -1,8 +1,10 @@
-html {
+html
+{
     overflow: hidden;
 }
 
-section{
+section
+{
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
@@ -10,23 +12,33 @@ section{
     display: inline-block;
 }
 
-body{
+body
+{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
 }
 
-main{
+main
+{
     height: 88vh;
     margin: 4vh;
-    background-color: #e2e2e2;
+    background-color: #ffffff;
     text-align: center;
     transition: 5s linear background-color;
 }
 
-button{
+  nav
+{
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    width: 1000px;
+ }
+
+button
+{
     width: 200px;
     padding: 5px;
     font-size: 15px;
@@ -37,21 +49,85 @@ button{
     outline: none;
     color: #ffffff;
     margin-top: 12px;
-    margin-right: 10px;
     transition: 0.15s linear color, 0.15s linear background-color, 0.3s ease-in transform;
 }
 
-button:hover{
+button:hover
+{
     background-color: #ffffff;
     color: #000000;
     font-weight: 1500;
 
 }
 
-#specialButton{
+.marginFix
+{
+  margin-right: 10px;
+}
+
+.selected
+{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.selected:hover
+{
+  background-color: #ffffff;
+}
+
+.disclaimer
+{
+  font-style: italic;
+}
+
+.leaderboard
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.leaderboard-bottom
+{
+    background-image: url(https://pixabay.com/static/uploads/photo/2015/04/20/08/31/board-730793_960_720.jpg);
+    background-attachment: fixed;
+    background-size: 400px;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: -1px;
+    width: 410px;
+    font-size: 23px;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.score
+{
+    letter-spacing: 2px;
+}
+
+.leaderboard-top
+{
+    background-color: #ffffff;
+    color: #000000;
+    border-style: dashed;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bolder;
+    width: 300px;
+}
+
+.leaderboard-left
+{
+    padding-right: 20px;
+}
+
+#specialButton
+{
     width: 842px;
 }
 
-#explanation {
+#explanation
+{
     margin-left: ;
 }
