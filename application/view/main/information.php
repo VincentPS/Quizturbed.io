@@ -1,8 +1,8 @@
 <nav>
-	<a href="<?php echo URL; ?>" ><button class="marginFix" >Home</button></a>
-	<a href="<?php echo URL; ?>main/leaderboard" ><button class="marginFix" >Leaderboard</button></a>
-	<button class="selected marginFix" >Information</button>
-	<a href="https://www.google.com" ><button>Quit</button></a>
+	<a href="<?php echo URL; ?>" ><button class="marginFix" ><?=$nav1?></button></a>
+	<a href="<?php echo URL; ?>main/leaderboard" ><button class="marginFix" ><?=$nav2?></button></a>
+	<button class="selected marginFix" ><?=$nav3?></button>
+	<a href="https://www.google.com" ><button><?=$nav4?></button></a>
 </nav>
 <button id="specialButton" >Info!</button><br>
 <div class="disclaimer">
