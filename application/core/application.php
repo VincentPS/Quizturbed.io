@@ -7,11 +7,22 @@ class Application
     private $url_params = array();
     public function __construct()
     {
+<<<<<<< HEAD
+=======
+        require APP . 'view/_templates/header.php';
+
+        // create array with URL parts in $url
+>>>>>>> refs/remotes/origin/wessel
         $this->splitUrl();
         if (!$this->url_controller) {
             require APP . 'controller/main.php';
             $page = new Main();
+<<<<<<< HEAD
             $page->index();
+=======
+            $page->main();
+
+>>>>>>> refs/remotes/origin/wessel
         } elseif (file_exists(APP . 'controller/' . $this->url_controller . '.php')) {
             require APP . 'controller/' . $this->url_controller . '.php';
             $this->url_controller = new $this->url_controller();
@@ -32,6 +43,9 @@ class Application
         } else {
             header('location: ' . URL . 'error');
         }
+
+        require APP . 'view/_templates/footer.php';
+
     }
     private function splitUrl()
     {
