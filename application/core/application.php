@@ -8,8 +8,6 @@ class Application
     public function __construct()
     {
 
-        require APP . 'view/_templates/header.php';
-
         // create array with URL parts in $url
         $this->splitUrl();
         if (!$this->url_controller) {
