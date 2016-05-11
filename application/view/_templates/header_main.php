@@ -3,11 +3,8 @@
 	$nav2 = "LeaderBoard";
 	$nav3 = "Information";
 	$nav4 = "Quit";
-
-
 ?>
 
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>Quizturbed.io</title>
@@ -17,7 +14,6 @@
 		<script src="<?php echo URL; ?>js/rainbows.js" type="text/javascript"></script>
 	</head>
 	<body id="body">
-		<main id="main">
-			<section id="section">
+			<header>
 				<h1 class="glitch"><span class="Q glitch" >Q</span>uizturbed</h1><br>
-				<p>The Disturbing Quiz</p>
+				<p class="sub-title">The Disturbing Quiz</p>
