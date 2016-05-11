@@ -9,10 +9,13 @@ class Application
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
         require APP . 'view/_templates/header.php';
 
         // create array with URL parts in $url
 >>>>>>> refs/remotes/origin/wessel
+>>>>>>> origin/Pre-Alpha
         $this->splitUrl();
         if (!$this->url_controller) {
             require APP . 'controller/main.php';
@@ -20,9 +23,13 @@ class Application
 <<<<<<< HEAD
             $page->index();
 =======
+<<<<<<< HEAD
+            $page->index();
+=======
             $page->main();
 
 >>>>>>> refs/remotes/origin/wessel
+>>>>>>> origin/Pre-Alpha
         } elseif (file_exists(APP . 'controller/' . $this->url_controller . '.php')) {
             require APP . 'controller/' . $this->url_controller . '.php';
             $this->url_controller = new $this->url_controller();
@@ -43,9 +50,6 @@ class Application
         } else {
             header('location: ' . URL . 'error');
         }
-
-        require APP . 'view/_templates/footer.php';
-
     }
     private function splitUrl()
     {
