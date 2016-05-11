@@ -15,14 +15,13 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color: #e2e2e2;
 }
 
 main{
     height: 88vh;
     margin: 4vh;
-    background-color: #ffffff;
-    border: 15px solid #000000;
+    background-color: #e2e2e2;
     text-align: center;
     transition: 5s linear background-color;
 }
@@ -46,6 +45,7 @@ button:hover{
     background-color: #ffffff;
     color: #000000;
     font-weight: 1500;
+
 }
 
 #specialButton{
