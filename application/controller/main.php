@@ -4,6 +4,7 @@ class Main extends Controller {
 
 	public function index()
 	{
+
 		require APP . 'view/_templates/header_main.php';
 		require APP . 'view/main/index.php';
 		require APP . 'view/_templates/footer_main.php';
